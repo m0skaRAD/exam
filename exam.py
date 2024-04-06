@@ -319,14 +319,9 @@ def where(go):
             whattupik = random.choice(tupik_list)
             print(whattupik)
     else:
-        import time
         print("Вітаю, ти пройшов лабіринт до кінця!!")
-        print("exit()..")
-        time.wait(2)
         print("Оні!!!!")
-        time.wait(1)
         print("Що ж це летить?!")
-        time.wait(1)
         final_fight()
 
 
